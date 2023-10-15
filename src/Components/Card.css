@@ -1,0 +1,44 @@
+.card {
+    max-width: 400px; 
+    background-color: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    color: #333333;
+
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    min-height: 75px;
+  }
+  
+  .card h4 {
+    font-size: 0.8rem;
+    margin: 0;
+    color: gray;
+    align-self: flex-start;
+  }
+  
+  .card label.checkbox {
+    margin-right: 10px;
+  }
+  
+  .card p {
+    flex: 1;
+    margin: 0;
+    align-self: flex-start;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+    
+    .card label.checkbox {
+      margin-right: 0; 
+      margin-bottom: 10px; 
+    }
+  }
+  

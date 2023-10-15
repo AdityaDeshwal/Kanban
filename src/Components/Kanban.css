@@ -1,0 +1,28 @@
+.column-container {
+  background-color: #F7F7F7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .clmn{
+    width: 18%;
+  }
+  
+  .column {
+    position: relative;
+    width: 100%;
+    left: -10px;
+    width: 100%;
+    
+    margin: 10px; 
+    padding: 10px;
+    
+    box-sizing: border-box; 
+    min-height: 100vh; 
+  }
+  .column:nth-child(1) {
+    margin-right: 10px;
+  }
+  

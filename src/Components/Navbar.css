@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #2C3E50; 
+  color: #ECF0F1;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .navbar button {
+      margin-top: 10px;
+      order: -1;
+    }
+  }
+
+  
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+  select{
+    margin: 0; 
+    padding: 5px; 
+    background-color: #FF5733;
+  color: #FFFFFF;
+  }
+  
+  
+  
